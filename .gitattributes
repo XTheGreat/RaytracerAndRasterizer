@@ -1,2 +1,3 @@
 # Example of a `.gitattributes` file:
-*.css linguist-language=Java
+special-vendored-path/* linguist-vendored
+*.css linguist-vendored=true
