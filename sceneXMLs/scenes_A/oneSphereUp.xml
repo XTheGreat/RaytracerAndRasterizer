@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--  Comments can be embedded as well. -->
+<scene>
+  <!-- Simple camera placed back from the origin looking in -Z direction -->
+  <camera name="main" type="perspective">
+    <position>0 3.0 4.0</position>
+    <viewDir>0 -1.5 -3.0</viewDir>
+    <focalLength>0.40</focalLength>
+    <imagePlaneWidth>0.5</imagePlaneWidth>
+  </camera>
+
+  <light type="area">
+    <position>0.0 15.0 5.0</position>
+    <intensity>1.0 1.0 1.0</intensity>
+    <normal>10.0 10.0 10.0</normal>
+    <width>15.0</width>
+    <length>15.0</length>
+  </light>
+
+  <shader name="redPlastic" type="BlinnPhong">
+    <diffuse>0.7 0.65 0.55</diffuse>
+    <specular>1 1 1</specular>
+    <phongExp>32.0</phongExp>
+  </shader>
+
+  <shader name="greyMat" type="Lambertian">
+    <diffuse>0.5 0.5 0.5</diffuse>
+  </shader>
+
+  <!-- Ground plane -->
+  <shape name="ground" type="box">
+    <shader ref="greyMat" />
+    <minPt>-50.0 -0.5 -50.0</minPt>
+    <maxPt>50.0 0.0 50.0</maxPt>
+  </shape>
+
+  <!-- Sphere -->
+  <shape name="leftsphere" type="sphere">
+    <shader ref="redPlastic"/>
+    <center>-1.2 2.0 -3.0</center>
+    <radius>1.0</radius>
+  </shape>
+
+</scene>

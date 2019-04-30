@@ -1,0 +1,142 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/SceneDataTypes.h
+scene.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/scene.h
+camera.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/camera.h
+light.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/light.h
+shader.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/shader.h
+shape.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/shape.h
+
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/SceneFile_Instancer.h
+string
+-
+map
+-
+XMLSceneParser.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/XMLSceneParser.h
+handleGraphicsArgs.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/handleGraphicsArgs.h
+SceneDataTypes.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/SceneDataTypes.h
+
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/camera.h
+Vector3D.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/Vector3D.h
+ray.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/ray.h
+
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/light.h
+Vector3D.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/Vector3D.h
+
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/ray.h
+Vector3D.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/Vector3D.h
+
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/scene.h
+Vector3D.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/Vector3D.h
+
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/shader.h
+Vector3D.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/Vector3D.h
+
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/shape.h
+Vector3D.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/Vector3D.h
+
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/test_XMLSceneParse.cpp
+iostream
+-
+sstream
+-
+cstdlib
+-
+cassert
+-
+Vector3D.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/Vector3D.h
+handleGraphicsArgs.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/handleGraphicsArgs.h
+XMLSceneParser.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/XMLSceneParser.h
+SceneFile_Instancer.h
+/home/adigu002/Documents/CS 5721/MyOpenGLLab1/myRayLibs/SceneFile_Instancer.h
+
+src/ArgumentParsing.h
+iostream
+-
+sstream
+-
+cstdlib
+-
+cstring
+-
+vector
+-
+boost/program_options.hpp
+-
+
+src/SceneDataContainer.h
+string
+-
+map
+-
+boost/property_tree/ptree.hpp
+-
+
+src/Vector3D.h
+cassert
+-
+iostream
+-
+cmath
+-
+
+src/XMLSceneParser.h
+cassert
+-
+cstdio
+-
+iostream
+-
+iomanip
+-
+sstream
+-
+string
+-
+algorithm
+-
+map
+-
+boost/foreach.hpp
+-
+boost/property_tree/xml_parser.hpp
+-
+boost/property_tree/ptree.hpp
+-
+SceneDataContainer.h
+src/SceneDataContainer.h
+
+src/handleGraphicsArgs.h
+iostream
+-
+string
+-
+ArgumentParsing.h
+src/ArgumentParsing.h
+Vector3D.h
+src/Vector3D.h
+

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adigu002/Documents/CS 5721/myRayTracer/utests/utest_Vector3D.cpp
+boost/test/included/unit_test.hpp
+-
+Vector3D.h
+/home/adigu002/Documents/CS 5721/myRayTracer/utests/Vector3D.h
+
+src/Vector3D.h
+cassert
+-
+iostream
+-
+cmath
+-
+vector
+-
+

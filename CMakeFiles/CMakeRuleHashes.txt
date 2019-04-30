@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+e049817354d35e90baee23d2ad39958f glfw-master/CMakeFiles/uninstall
+9b15a02a849041318163de71dae2830d glfw-master/docs/CMakeFiles/docs

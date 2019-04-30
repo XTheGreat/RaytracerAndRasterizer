@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/main_parser.dir/main.cpp.o  -o main_parser -rdynamic ../src/libsive-util.a libraytracer-util.a -Wl,-Bstatic -lboost_program_options -Wl,-Bdynamic 

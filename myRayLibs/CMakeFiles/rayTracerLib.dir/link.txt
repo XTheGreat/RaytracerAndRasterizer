@@ -1,0 +1,2 @@
+/usr/bin/ar qc librayTracerLib.a  CMakeFiles/rayTracerLib.dir/camera.cpp.o CMakeFiles/rayTracerLib.dir/SceneFile_Instancer.cpp.o
+/usr/bin/ranlib librayTracerLib.a

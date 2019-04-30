@@ -1,0 +1,2 @@
+/usr/bin/ar qc librasterizer-util.a  CMakeFiles/rasterizer-util.dir/main.cpp.o
+/usr/bin/ranlib librasterizer-util.a

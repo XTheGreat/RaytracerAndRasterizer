@@ -1,0 +1,178 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/ArgumentParsing.cpp
+cassert
+-
+ArgumentParsing.h
+/home/adigu002/Documents/CS 5721/myRayTracer/src/ArgumentParsing.h
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/ArgumentParsing.h
+iostream
+-
+sstream
+-
+cstdlib
+-
+cstring
+-
+vector
+-
+boost/program_options.hpp
+-
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/Random.cpp
+iostream
+-
+cstdlib
+-
+cmath
+-
+unistd.h
+-
+stdlib.h
+-
+time.h
+-
+Random.h
+/home/adigu002/Documents/CS 5721/myRayTracer/src/Random.h
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/Random.h
+limits
+-
+windows.h
+-
+boost/random/mersenne_twister.hpp
+-
+boost/random/uniform_01.hpp
+-
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/SceneDataContainer.h
+string
+-
+map
+-
+boost/property_tree/ptree.hpp
+-
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/Timer.cpp
+iostream
+-
+cstring
+-
+Timer.h
+/home/adigu002/Documents/CS 5721/myRayTracer/src/Timer.h
+sys/types.h
+-
+fcntl.h
+-
+windows.h
+-
+winbase.h
+-
+fcntl.h
+-
+unistd.h
+-
+sys/mman.h
+-
+sys/types.h
+-
+sys/time.h
+-
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/Timer.h
+cstdio
+-
+cstdlib
+-
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/Vector3D.cpp
+Vector3D.h
+/home/adigu002/Documents/CS 5721/myRayTracer/src/Vector3D.h
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/Vector3D.h
+cassert
+-
+iostream
+-
+cmath
+-
+vector
+-
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/XMLSceneParser.cpp
+XMLSceneParser.h
+/home/adigu002/Documents/CS 5721/myRayTracer/src/XMLSceneParser.h
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/XMLSceneParser.h
+cassert
+-
+cstdio
+-
+iostream
+-
+iomanip
+-
+sstream
+-
+string
+-
+algorithm
+-
+map
+-
+boost/foreach.hpp
+-
+boost/property_tree/xml_parser.hpp
+-
+boost/property_tree/ptree.hpp
+-
+SceneDataContainer.h
+/home/adigu002/Documents/CS 5721/myRayTracer/src/SceneDataContainer.h
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/handleGraphicsArgs.cpp
+handleGraphicsArgs.h
+/home/adigu002/Documents/CS 5721/myRayTracer/src/handleGraphicsArgs.h
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/handleGraphicsArgs.h
+iostream
+-
+string
+-
+ArgumentParsing.h
+/home/adigu002/Documents/CS 5721/myRayTracer/src/ArgumentParsing.h
+Vector3D.h
+/home/adigu002/Documents/CS 5721/myRayTracer/src/Vector3D.h
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/model_obj.cpp
+algorithm
+-
+cmath
+-
+cstring
+-
+limits
+-
+string
+-
+iostream
+-
+model_obj.h
+/home/adigu002/Documents/CS 5721/myRayTracer/src/model_obj.h
+
+/home/adigu002/Documents/CS 5721/myRayTracer/src/model_obj.h
+cstdio
+-
+map
+-
+string
+-
+vector
+-
+

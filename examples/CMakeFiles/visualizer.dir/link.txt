@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/visualizer.dir/visualize.cpp.o  -o visualizer -rdynamic ../src/libsive-util.a -Wl,-Bstatic -lboost_program_options -Wl,-Bdynamic -lpng -lz 
